@@ -1,8 +1,3 @@
-# Finger
-Module for creating table-based menu for love2d.
-
-# Full Example
-```lua
 cursor = require 'finger'
 
 love.load = function(dt)
@@ -35,4 +30,3 @@ love.keypressed = function(key)
   --Object is used as a function to navigate in the menu
   cursor(key)
 end
-```
